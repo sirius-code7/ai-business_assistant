@@ -107,3 +107,31 @@ Cette réponse est cohérente avec les exemples fournis dans le prompt. Les diff
 ### Observation
 
 Le Few-shot fournit davantage de contexte au modèle grâce à plusieurs exemples. Cette approche peut améliorer la compréhension de la tâche lorsque celle-ci est plus complexe.
+
+## 2.4 — Prompt structuré
+
+### Principe
+
+Le Prompt structuré organise clairement les différentes composantes de la demande (rôle, contexte, tâche, contraintes et format de sortie) afin de réduire les ambiguïtés et d'obtenir une réponse plus précise.
+
+### Test
+
+Le prompt a été soumis au modèle de langage **Kimi K3**.
+
+**Réponse obtenue :**
+
+> négatif
+
+Une capture d'écran du test est conservée dans :
+
+`assets/images/partie_2/p2_2.4_prompt_structure_kimi_k3.png`
+
+### Évaluation
+
+Le modèle classe le commentaire comme **négatif**.
+
+Le prompt définit clairement le rôle, le contexte, la tâche, les contraintes et le format de sortie. Cette structuration réduit les ambiguïtés et facilite l'interprétation de la demande.
+
+### Observation
+
+Le Prompt structuré est particulièrement adapté aux applications professionnelles, car il rend les attentes explicites et facilite la réutilisation du prompt dans différents contextes.
