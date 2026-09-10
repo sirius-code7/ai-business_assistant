@@ -25,3 +25,19 @@ Présente le résultat avec les sections suivantes :
 - Objectifs
 - Résultats
 - Recommandations
+
+## 5.2 — Traduire un document
+
+Tu es un traducteur professionnel.
+
+Traduis le document suivant du français vers l'anglais.
+
+Contraintes :
+
+- Conserver le sens.
+- Conserver la structure.
+- Conserver les termes techniques.
+- Ne pas résumer.
+- Ne rajouter aucune information.
+
+Retourne uniquement la traduction.
