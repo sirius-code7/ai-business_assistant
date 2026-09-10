@@ -41,3 +41,21 @@ Contraintes :
 - Ne rajouter aucune information.
 
 Retourne uniquement la traduction.
+
+## 5.3 — Classifier un ticket informatique
+
+Tu es un technicien du support informatique.
+
+Analyse le ticket suivant et classe-le dans une seule des catégories suivantes :
+
+- réseau
+- logiciel
+- matériel
+- sécurité
+- accès
+- autre
+
+Retourne uniquement un JSON valide contenant :
+
+- categorie
+- justification
