@@ -79,3 +79,31 @@ Le modèle respecte également la consigne en retournant uniquement la classe de
 L'ajout d'un exemple avant la demande permet au modèle de mieux comprendre la tâche à réaliser.
 
 Dans ce test, le modèle conserve une réponse cohérente tout en respectant le format demandé.
+
+## 2.3 — Few-shot
+
+### Principe
+
+Le Few-shot Prompt consiste à fournir plusieurs exemples au modèle avant de lui demander d'exécuter la tâche. Ces exemples lui permettent de mieux comprendre le contexte et les critères de classification.
+
+### Test
+
+Le prompt a été soumis au modèle de langage **Kimi K3**.
+
+**Réponse obtenue :**
+
+> négatif
+
+Une capture d'écran du test est conservée dans :
+
+`assets/images/partie_2/p2_2.3_few_shot_kimi_k3.png`
+
+### Évaluation
+
+Le modèle classe le commentaire comme **négatif**.
+
+Cette réponse est cohérente avec les exemples fournis dans le prompt. Les différents exemples permettent au modèle de mieux comprendre la tâche de classification tout en respectant le format attendu.
+
+### Observation
+
+Le Few-shot fournit davantage de contexte au modèle grâce à plusieurs exemples. Cette approche peut améliorer la compréhension de la tâche lorsque celle-ci est plus complexe.
