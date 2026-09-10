@@ -76,3 +76,39 @@ Tu es un assistant spécialisé dans l'analyse de documents.
 Si une information est absente, attribue la valeur null.
 
 Ne retourne aucun texte avant ou après le JSON.
+
+Une capture d'écran du test est conservée dans :
+
+`assets/images/partie_5/p5_5.4_extraction_info_kimi_k3.png`
+
+## 5.5 — Rédiger un email
+
+Tu es un conseiller du service client.
+
+Rédige un email destiné à un client dont la livraison a pris du retard.
+
+Objectifs :
+
+- reconnaître le retard ;
+- présenter des excuses ;
+- expliquer la situation sans inventer de cause ;
+- proposer une solution.
+
+Contraintes :
+
+- ton professionnel ;
+- ton courtois ;
+- ton rassurant ;
+- maximum 150 mots.
+
+Une capture d'écran du test est conservée dans :
+
+`assets/images/partie_5/p5_5.5_redaction_email_kimi_k3.png`
+
+---
+
+## Bilan
+
+Cette partie a permis de concevoir plusieurs prompts adaptés à des besoins métiers courants.
+
+Chaque prompt est construit en tenant compte du contexte, de la tâche à réaliser et des contraintes spécifiques afin d'obtenir des réponses fiables, structurées et directement exploitables dans un environnement professionnel.
