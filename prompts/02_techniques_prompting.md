@@ -135,3 +135,22 @@ Le prompt définit clairement le rôle, le contexte, la tâche, les contraintes 
 ### Observation
 
 Le Prompt structuré est particulièrement adapté aux applications professionnelles, car il rend les attentes explicites et facilite la réutilisation du prompt dans différents contextes.
+
+## 2.5 — Comparaison des techniques
+
+| Technique | Réponse obtenue | Observation |
+|-----------|-----------------|-------------|
+| Zero-shot | Négatif | Réponse correcte malgré une consigne minimale. |
+| One-shot | Négatif | L'exemple aide le modèle à comprendre la tâche. |
+| Few-shot | Négatif | Les différents exemples renforcent la compréhension de la classification. |
+| Prompt structuré | Négatif | La structure claire du prompt améliore la lisibilité et facilite sa réutilisation. |
+
+---
+
+## Bilan
+
+Les quatre techniques ont été testées avec le modèle de langage **Kimi K3**.
+
+Dans cette expérimentation, toutes les techniques ont produit la même classification (**négatif**). Cependant, leur intérêt ne réside pas uniquement dans le résultat obtenu, mais également dans la manière de guider le modèle.
+
+Le Zero-shot est simple à mettre en œuvre, tandis que le One-shot et le Few-shot apportent progressivement davantage de contexte. Le Prompt structuré se distingue par son organisation claire, ce qui le rend particulièrement adapté à une utilisation en entreprise et à la maintenance de prompts complexes.
