@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est réalisé dans le cadre d'un atelier Prompt Engineering.
+Ce projet est réalisé dans le cadre d'un atelier de Prompt Engineering.
 
 L'objectif est de concevoir progressivement des prompts permettant à un assistant IA d'accomplir différentes tâches métier, telles que :
 
