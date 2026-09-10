@@ -75,3 +75,30 @@ Pour chacune, indique :
 - le contexte dans lequel elle est particulièrement utile.
 
 Présente la réponse sous forme de sections clairement identifiées.
+
+## 6.5 — Métriques de régression
+
+Tu es un formateur en Machine Learning.
+
+Explique les métriques de régression suivantes :
+
+- MAE
+- MSE
+- RMSE
+
+Pour chacune, indique :
+
+- sa définition ;
+- son interprétation ;
+- un exemple concret ;
+- le contexte dans lequel elle est particulièrement utile.
+
+Présente la réponse sous forme de sections clairement identifiées.
+
+---
+
+## Bilan
+
+Cette partie a permis de concevoir des prompts couvrant plusieurs étapes d'un projet de Machine Learning : le prétraitement des données, l'analyse exploratoire, le choix des modèles ainsi que l'interprétation des métriques d'évaluation.
+
+Ces prompts peuvent servir d'assistance pour accompagner les différentes phases d'un projet tout en conservant un cadre méthodique et des contraintes explicites.
