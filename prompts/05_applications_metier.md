@@ -59,3 +59,20 @@ Retourne uniquement un JSON valide contenant :
 
 - categorie
 - justification
+
+## 5.4 — Extraire les informations d'une facture
+
+Tu es un assistant spécialisé dans l'analyse de documents.
+
+À partir de la facture fournie, retourne uniquement un objet JSON valide contenant les propriétés suivantes :
+
+- numero_facture
+- date
+- client
+- montant_ht
+- tva
+- montant_ttc
+
+Si une information est absente, attribue la valeur null.
+
+Ne retourne aucun texte avant ou après le JSON.
