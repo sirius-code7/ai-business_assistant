@@ -54,3 +54,24 @@ Pour chaque modèle, indique :
 - les métriques d'évaluation pertinentes.
 
 Ne recommande que des modèles cohérents avec les données disponibles.
+
+## 6.4 — Métriques de classification
+
+Tu es un formateur en Machine Learning.
+
+Explique les métriques de classification suivantes :
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- ROC-AUC
+
+Pour chacune, indique :
+
+- sa définition ;
+- son interprétation ;
+- un exemple concret ;
+- le contexte dans lequel elle est particulièrement utile.
+
+Présente la réponse sous forme de sections clairement identifiées.
