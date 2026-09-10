@@ -47,3 +47,35 @@ La réponse obtenue est cohérente.
 Le commentaire comporte un point positif (« Le service est rapide »), mais également un problème important (« l'application plante régulièrement »). Le modèle considère que cet élément négatif a un impact plus fort sur l'expérience globale du client et classe donc le commentaire comme **négatif**.
 
 La réponse respecte la consigne en retournant uniquement une classe.
+
+## 2.2 — One-shot
+
+### Principe
+
+Le One-shot Prompt consiste à fournir un seul exemple au modèle avant de lui confier la tâche. Cet exemple lui permet de mieux comprendre ce qui est attendu en termes de raisonnement et de format de réponse.
+
+### Test
+
+Le prompt a été soumis au modèle de langage **Kimi K3**.
+
+**Réponse obtenue :**
+
+> négatif
+
+Une capture d'écran du test est conservée dans :
+
+`assets/images/partie_2/p2_2.2_one_shot_kimi_k3.png`
+
+### Évaluation
+
+Le modèle classe le commentaire comme **négatif**.
+
+Cette réponse est cohérente, car malgré la présence d'un point positif (« Le service est rapide »), le dysfonctionnement répété de l'application est considéré comme un élément ayant un impact plus important sur l'expérience du client.
+
+Le modèle respecte également la consigne en retournant uniquement la classe demandée.
+
+### Observation
+
+L'ajout d'un exemple avant la demande permet au modèle de mieux comprendre la tâche à réaliser.
+
+Dans ce test, le modèle conserve une réponse cohérente tout en respectant le format demandé.
