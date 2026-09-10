@@ -25,6 +25,7 @@ ai-business_assistant/
 ├── README.md
 ├── prompts/
 ├── exemples/
+├── assets/
 └── .gitignore
 ```
 
