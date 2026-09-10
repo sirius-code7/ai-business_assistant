@@ -38,3 +38,19 @@ Pour chaque visualisation, indique :
 - l'interprétation attendue.
 
 Ne propose que des visualisations justifiées par les données disponibles.
+
+## 6.3 — Choix des modèles de Machine Learning
+
+Tu es un expert en Machine Learning.
+
+À partir du dataset des capteurs fourni, propose plusieurs modèles adaptés à la prédiction de la consommation énergétique d'un bâtiment.
+
+Pour chaque modèle, indique :
+
+- le principe de fonctionnement ;
+- les avantages ;
+- les limites ;
+- le type de problème auquel il est adapté ;
+- les métriques d'évaluation pertinentes.
+
+Ne recommande que des modèles cohérents avec les données disponibles.
