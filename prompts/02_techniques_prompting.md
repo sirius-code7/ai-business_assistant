@@ -90,6 +90,49 @@ Le Few-shot Prompt consiste à fournir plusieurs exemples au modèle avant de lu
 
 Le prompt a été soumis au modèle de langage **Kimi K3**.
 
+>Tu vas classer des commentaires clients selon leur sentiment.
+
+>Exemple 1
+
+>Commentaire :
+>"Le personnel est très accueillant et le service est excellent."
+
+>Classe :
+>positif
+
+>---
+
+>Exemple 2
+
+>Commentaire :
+>"Le produit est arrivé avec plusieurs jours de retard."
+
+>Classe :
+>négatif
+
+>---
+
+>Exemple 3
+
+>Commentaire :
+>"Le produit est conforme à la description et fonctionne correctement."
+
+>Classe :
+>positif
+
+>---
+
+>Classe maintenant le commentaire suivant :
+
+>"Le service est rapide mais l'application plante régulièrement."
+
+>Classes possibles :
+>- positif
+>- négatif
+>- neutre
+
+>Réponds uniquement par la classe choisie.
+
 **Réponse obtenue :**
 
 > négatif
