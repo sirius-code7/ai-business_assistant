@@ -47,3 +47,7 @@ ai-business_assistant/
 ## Objectif
 
 Construire des prompts clairs, concis et réutilisables en appliquant les bonnes pratiques du Prompt Engineering.
+
+## Environnement de test
+
+Les prompts de cet atelier ont été testés avec le modèle de langage Kimi K3 afin de garantir une cohérence dans les comparaisons réalisées entre les différentes techniques de prompting.
