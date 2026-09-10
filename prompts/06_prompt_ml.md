@@ -23,3 +23,18 @@ Pour chaque point, indique :
 - les risques associés.
 
 N'invente aucune information sur le dataset. Base-toi uniquement sur les données fournies.
+
+## 6.2 — Choix des visualisations
+
+Tu es un data analyst.
+
+À partir du dataset des capteurs fourni, propose les visualisations les plus pertinentes pour analyser la consommation énergétique d'un bâtiment.
+
+Pour chaque visualisation, indique :
+
+- le type de graphique ;
+- les variables utilisées ;
+- l'objectif de la visualisation ;
+- l'interprétation attendue.
+
+Ne propose que des visualisations justifiées par les données disponibles.
