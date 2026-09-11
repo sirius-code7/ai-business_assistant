@@ -71,3 +71,57 @@ Une capture d'écran du test est conservée dans :
 L'ajout d'une contrainte de longueur améliore nettement le résultat. Le modèle comprend mieux la quantité d'informations attendue.
 
 Cependant, certaines formulations comme « démarche globale » ou « implications humaines » vont légèrement au-delà des informations explicitement présentes dans le texte source.
+
+## 8.3 Prompt C : prompt optimisé
+
+### Principe
+
+Le troisième prompt est plus complet. Il précise le rôle du modèle, la tâche à réaliser, les contraintes à respecter et le format attendu.
+
+>Tu es un assistant spécialisé dans la synthèse de documents professionnels.
+
+>Contexte :
+>Le texte présente les effets de l'intelligence artificielle sur les entreprises, ainsi que les conditions nécessaires à son adoption responsable.
+
+>Tâche :
+>Résume le texte fourni afin d'en présenter clairement les idées principales.
+
+>Contraintes :
+>- Maximum 150 mots.
+>- Conserver uniquement les informations importantes et factuelles.
+>- Ne pas ajouter d'informations absentes du texte.
+>- Mettre en évidence les principaux enjeux et recommandations.
+>- Utiliser un langage clair et professionnel.
+
+>Format attendu :
+>Un paragraphe structuré et synthétique.
+
+## Évaluation du Prompt C
+
+### Résultat obtenu
+
+Le modèle a produit un résumé clair, synthétique et professionnel de 105 mots.
+
+### Analyse
+
+- Compréhension du texte : très bonne.
+- Fidélité au texte : très bonne.
+- Concision : excellente.
+- Respect des contraintes : excellent.
+- Qualité du résumé : très bonne.
+
+Une capture d'écran du test est conservée dans :
+
+`assets/images/partie_7/p8_8.3_prompt_c_kimi_k3.png`
+
+### Conclusion
+
+Le Prompt C est le plus précis des trois. Il permet de mieux contrôler la réponse grâce à plusieurs composants :
+
+- un rôle spécialisé ;
+- un contexte ;
+- une tâche clairement définie ;
+- des contraintes de longueur et de contenu ;
+- un format de réponse attendu.
+
+Le résultat est donc plus structuré et plus proche de l'objectif demandé.
